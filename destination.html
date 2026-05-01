@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Destinations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+  <h2>TravelExplorer</h2>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="destination.html">Destinations</a></li>
+    <li><a href="packages.html">Packages</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</header>
+
+<!-- Hero Section -->
+<section class="dest-hero">
+  <h1>Explore Beautiful Destinations</h1>
+</section>
+
+<!-- Filters -->
+<div class="filters">
+  <button onclick="filterDest('all')">All</button>
+  <button onclick="filterDest('india')">India</button>
+  <button onclick="filterDest('international')">International</button>
+</div>
+
+<!-- Destination Cards -->
+<section class="destinations">
+  <div class="destination-container">
+
+    <div class="destination-card india">
+      <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2">
+      <div class="overlay"><h3>Banaras</h3></div>
+    </div>
+
+    <div class="destination-card india">
+      <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad">
+      <div class="overlay"><h3>Manali</h3></div>
+    </div>
+
+    <div class="destination-card international">
+      <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98">
+      <div class="overlay"><h3>Paris</h3></div>
+    </div>
+
+    <div class="destination-card international">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+      <div class="overlay"><h3>America</h3></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 TravelExplorer</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
